@@ -1,0 +1,13 @@
+<input> 5
+read 1
+load =1
+store 2
+if1: load 1
+mul 2
+store 2
+load 1
+sub =1
+store 1
+jgtz if1
+write 2
+halt

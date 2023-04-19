@@ -1,0 +1,15 @@
+<input> 5
+read 1
+load =1
+store 2
+load 1
+jzero end
+Sub1: sub 2
+store 3
+jzero end 
+mul 1
+store 1
+load 3
+jgtz: Sub1
+end: write 1
+halt

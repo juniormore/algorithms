@@ -1,0 +1,11 @@
+<input> 2
+read 1
+load 1
+mul 1
+store 1
+load =2
+mul 1
+store 1
+load =1
+add 1
+write 0
